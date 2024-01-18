@@ -13,6 +13,7 @@ class SampleElement extends CapElement {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(this.#showPosition);
     }
+    console.error('INIT TEST')
   }
 
   tick = (time, deltatime) => {};
